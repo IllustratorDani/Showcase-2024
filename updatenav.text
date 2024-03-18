@@ -1,0 +1,11 @@
+  <a href="index.html">Home</a>
+    <a href="module1.html">Module 1</a>
+    <a href="module2.html">Module 2</a>
+    <a href="module3.html">Module 3</a>
+    <a href="module4.html">Module 4</a>
+
+    <!--Update Navigation with updated links using this file!-->
+
+    <!--Will also include CSS files if necessary-->
+
+     <script src="buttons.js"></script>
