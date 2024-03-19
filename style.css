@@ -14,9 +14,12 @@ body {
 }
 /* Header/logo Title */
 
+h3{
+  text-align: center;
+}
 header {
   padding: 60px;
-  text-align: center;
+  text-align:  center;
   background-color: #124559;
   color: #AEC3B0;
   flex-wrap: wrap;
@@ -37,7 +40,7 @@ nav {
   text-align: left;
 }
 nav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px x 32px;
   text-decoration: none;
   font-size: 25px;
   color: #84a3a1;
@@ -60,20 +63,23 @@ main {
   margin-top: 15px;
   background-color: #84a3a1;
   color: #0E3A4B;
-  text-align: center;
 }
 .grid-container {
   display: grid;
   gap: 15px;
   background-color: #EFF6E0;
+  
 }
 .item1 {
   grid-column: 1;
   padding: 15px;
+  text-indent: 5%;
 }
+
 .item2 {
   grid-column: 2;
   padding: 15px;
+  text-indent: 5%;
 }
 .button {
   border: none;
@@ -111,6 +117,8 @@ footer {
 }
 @media only screen and (max-width: 700px) {
   .grid-container {
-    display: block;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column: 1;
   }
 }
